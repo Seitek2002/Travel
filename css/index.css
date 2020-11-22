@@ -99,7 +99,7 @@ body{
     align-items: center;
     z-index: 1;
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: #000;
     top: 0;
@@ -115,18 +115,18 @@ body{
     display: none;
 }
 .overlay__arrow{
-    display: block;
     z-index: 2;
     background: url(../img/circle-up.svg) center no-repeat;
     position: absolute;
-	height: 32px;
-	width: 32px;
-    left: 48%;
-    top: 90%;
+	height: 10vh;
+    width: 30vw;
+    left: 35%;
+    top: 80%;
+    cursor: pointer;
     transition: 0.5s;
     opacity: 0;
 }
-body:hover .overlay__arrow{
+.overlay__arrow:hover{
     opacity: 1;
 }
 .overlay__button:checked ~ .overlay__arrow{
@@ -135,4 +135,7 @@ body:hover .overlay__arrow{
 }
 .overlay__button:checked ~ .overlay{
     margin-top: -800px;
+}
+::-webkit-scrollbar{
+    display: none;
 }
