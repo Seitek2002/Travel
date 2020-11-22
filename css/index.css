@@ -53,3 +53,22 @@ body{
     left: 46%;
     transform: translate(-50%, -50%);
 }
+.header__title{
+    color: #fff;
+    font-weight: bolder;
+}
+.header__suptitle{
+    color: #fff;
+    font-weight: lighter;
+}
+.header__btn{
+    margin-top: 12px;
+    border: none;
+    background: #fff;
+    padding: 16px 40px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 4px;
+    outline: none;
+    cursor: pointer;
+}
