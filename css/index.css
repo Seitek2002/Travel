@@ -42,4 +42,9 @@ body{
 .side-srtip{
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
+    right: -4em;
+    transform: rotate(90deg);
+    color: #fff;
+    letter-spacing: 4px;
 }
