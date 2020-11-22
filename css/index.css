@@ -29,5 +29,17 @@ body{
     display: inline-block;
     color: #fff;
     padding-right: 36px;
-    
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icons__list{
+    color: #fff;
+    padding-top: 20px;
+}
+.side-srtip{
+    position: absolute;
+    top: 50%;
 }
