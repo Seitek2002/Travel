@@ -113,10 +113,15 @@ body{
 .overlay__button{
     z-index: 2;
     position: absolute;
-    left: 50%;
-    bottom: 0;
-    border: none;
-    background: black;
+    left: 48%;
+    bottom: 50px;
+}
+.overlay__button::before{
+    content: "";
+    background: url(../img/circle-up.svg) center no-repeat;
+    position: absolute;
+	height: 32px;
+	width: 32px;
 }
 .overlay__button:checked ~ .overlay{
     margin-top: -800px;
