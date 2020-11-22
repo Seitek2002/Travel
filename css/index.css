@@ -4,7 +4,30 @@
     font-family: "Poppins";
     src: url("../fonts/Poppins-Regular.woff2");
 }
+body{
+    background: url(../img/unsplash02.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+.logo{
+    line-height: 40px;
+    float: left;
+    margin: 1.2em 0 0 2.2em;
+    font-weight: bolder;
+    color: #fff;
+}
+.nav{
+    line-height: 40px;
+    margin: 1.2em;
+    position: absolute;
+    right: 0;
+}
+.nav__list{
+    display: inline-block;
+    color: #fff;
+    padding-right: 36px;
+    
 }
