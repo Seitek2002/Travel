@@ -10,6 +10,9 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding: 2.6em 2.6em 2em 2.6em;
+    background: #000;
+    border-radius: 12px;
 }
 .logo{
     line-height: 40px;
@@ -71,4 +74,11 @@ body{
     letter-spacing: 4px;
     outline: none;
     cursor: pointer;
+}
+.bottom-bar{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
