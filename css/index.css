@@ -114,7 +114,7 @@ body{
     z-index: 2;
     position: absolute;
     left: 48%;
-    bottom: 50px;
+    top: 90%;
 }
 .overlay__button::before{
     content: "";
@@ -122,6 +122,9 @@ body{
     position: absolute;
 	height: 32px;
 	width: 32px;
+}
+.overlay__button:checked{
+    top: 2%;
 }
 .overlay__button:checked ~ .overlay{
     margin-top: -800px;
