@@ -20,6 +20,7 @@ body{
     margin: 1.2em 0 0 2.2em;
     font-weight: bolder;
     color: #fff;
+    font-size: 20px;
 }
 .nav{
     line-height: 40px;
@@ -111,20 +112,21 @@ body{
     text-align: center;
 }
 .overlay__button{
-    z-index: 2;
-    position: absolute;
-    left: 48%;
-    top: 90%;
+    display: none;
 }
-.overlay__button::before{
-    content: "";
+.overlay__arrow{
+    z-index: 2;
     background: url(../img/circle-up.svg) center no-repeat;
     position: absolute;
 	height: 32px;
 	width: 32px;
+    left: 48%;
+    top: 90%;
+    transition: 0.5s;
 }
-.overlay__button:checked{
-    top: 2%;
+.overlay__button:checked ~ .overlay__arrow{
+    top: 5%;
+    transform: rotate(180deg);
 }
 .overlay__button:checked ~ .overlay{
     margin-top: -800px;
