@@ -1,6 +1,9 @@
 @import './base.css';
 @import './components/header.css';
-
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.woff2");
+}
 .row{
     display: flex;
     flex-wrap: wrap;
