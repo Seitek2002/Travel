@@ -39,7 +39,7 @@ body{
     color: #fff;
     padding-top: 20px;
 }
-.side-srtip{
+.side-strip{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
