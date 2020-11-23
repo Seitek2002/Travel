@@ -67,7 +67,7 @@ body{
 }
 .header__btn{
     margin-top: 12px;
-    border: 1px solid white;
+    border: 0.001em solid white;
     background: #fff;
     padding: 16px 40px;
     font-weight: 600;
