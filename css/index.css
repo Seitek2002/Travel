@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding: 2.6em 2.6em 2em 2.6em;
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 12px;
 }
 .logo{
