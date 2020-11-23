@@ -67,7 +67,7 @@ body{
 }
 .header__btn{
     margin-top: 12px;
-    border: none;
+    border: 1px solid white;
     background: #fff;
     padding: 16px 40px;
     font-weight: 600;
@@ -80,7 +80,7 @@ body{
     border-radius: 5px;
 }
 .header__btn:hover{
-    background: #000;
+    background: rgba(0, 0, 0, 0.1);
     color: #999999;
 }
 .bottom-bar{
