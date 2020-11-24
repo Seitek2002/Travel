@@ -141,7 +141,7 @@ body{
     transform: rotate(180deg);
 }
 .overlay__button:checked ~ .overlay{
-    margin-top: -800px;
+    margin-top: -100vh;
 }
 ::-webkit-scrollbar{
     display: none;
