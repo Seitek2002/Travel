@@ -30,8 +30,10 @@ body{
 }
 .nav__list{
     display: inline-block;
+}
+.nav__link{
     color: #fff;
-    padding-right: 36px;
+    border-bottom: 2px solid #999999;
 }
 .icons{
     position: absolute;
@@ -41,6 +43,9 @@ body{
 .icons__list{
     color: #fff;
     padding-top: 20px;
+}
+.icons__link{
+    color: #fff;
 }
 .side-strip{
     position: absolute;
