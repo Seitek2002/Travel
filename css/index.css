@@ -37,7 +37,8 @@ body{
     padding: 0 13px 20px 13px;
     position: relative;
 }
-.nav__link::before{
+.nav__link::before,
+.nav__link::after{
     position: absolute;
     content: "";
     background-color: #fff;
@@ -45,6 +46,9 @@ body{
     height: 2px;
     left: 0;
     bottom: 0;
+}
+.nav__link::after{
+    right: 0;
 }
 .icons{
     position: absolute;
