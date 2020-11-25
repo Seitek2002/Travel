@@ -33,28 +33,31 @@ body{
 }
 .nav__link{
     color: #fff;
-    padding: 0 13px 20px 13px;
+    padding: 0 13px 15px 13px;
     position: relative;
+    transition: 0.5s;
 }
 .nav__link::before{
     position: absolute;
     content: "";
     background-color: #fff;
     width: 0;
-    height: 2px;
-    left: 0;
+    height: 50px;
+    right: 50%;
     bottom: 0;
     transition: 0.3s;
+    z-index: -1;
 }
 .nav__link::after{
     position: absolute;
     content: "";
     background-color: #fff;
     width: 0;
-    height: 2px;
-    right: 0;
+    height: 50px;
+    left: 50%;
     bottom: 0;
     transition: 0.3s;
+    z-index: -1;
 }
 .nav__link:hover::before{
     width: 50%;
@@ -62,8 +65,8 @@ body{
 .nav__link:hover::after{
     width: 50%;
 }
-.nav__link:hover::after{
-    width: 50%;
+.nav__link:hover{
+    color: #323232;
 }
 .icons{
     position: absolute;
@@ -165,7 +168,7 @@ body{
     left: 35%;
     top: 80%;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 1s;
     opacity: 0;
 }
 .overlay__arrow:hover{
