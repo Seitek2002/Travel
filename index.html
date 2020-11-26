@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escape Life</title>
-    <link rel="stylesheet" href="./node_modules/animate.css/animate.css">
     <link rel="stylesheet" href="./css/index.css">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -15,7 +18,7 @@
     </label>
         <label for="arrow" class="overlay__arrow"></label>
     <div class="wrapper">
-        <a href="#" class="logo animate wow fadeInLeft">escape</a>
+        <a href="#" class="logo animate__animated animate__fadeInLeft">escape</a>
         <div class="nav">
             <ul class="nav__ul">
                 <li class="nav__list"><a href="#" class="nav__link">Home</a></li>
@@ -46,7 +49,7 @@
             </button>
         </div>
         <div class="bottom-bar">
-            <div class="container">
+            <div class="container animate__animated animate__fadeInUp data-wow-duration="5s">
                 <div class="row">
                     <div class="col-4">
                         <h6>Lorem ipsum dolor sit.</h6>
@@ -67,10 +70,5 @@
 
 
     </div>
-
-<script type="module" src="./js/wow.min.js"></script>
-<script>
-    new WOW().init();
-    </script>
 </body>
 </html>
