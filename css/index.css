@@ -80,6 +80,9 @@ body{
 .fourth{
     --animate-duration: 1.8s;
 }
+.fifth{
+    --animate-duration: 2s;
+}
 .icons{
     position: absolute;
     top: 50%;
@@ -117,7 +120,7 @@ body{
 }
 .header__btn{
     margin-top: 12px;
-    border: 0.001em solid white;
+    border: 0.1px solid white;
     background: #fff;
     padding: 16px 40px;
     font-weight: 600;
