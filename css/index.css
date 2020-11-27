@@ -68,6 +68,18 @@ body{
 .nav__link:hover{
     color: #323232;
 }
+.first{
+    --animate-duration: 1s;
+}
+.second{
+    --animate-duration: 1.4s;
+}
+.third{
+    --animate-duration: 1.6s;
+}
+.fourth{
+    --animate-duration: 1.8s;
+}
 .icons{
     position: absolute;
     top: 50%;
